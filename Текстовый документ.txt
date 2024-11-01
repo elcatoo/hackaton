@@ -6,3 +6,6 @@ http://localhost:3000
 
 Телеграмм бот с рассылкой - 
 @WhereMyFamily_bot
+
+
+Для запуска обязателен Node JS!!!!
