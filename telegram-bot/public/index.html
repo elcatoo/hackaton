@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Button</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAF-eMcv8EkG08vv71G0rdMyvQIZUn5v14&callback=initMap" async defer></script>
+    
+</head>
+<body>
+    
+    <main>
+        <div class="main_container">
+            <div class="left_menu">
+                <div class="menu_nav">
+                    <div class="items">
+                        <button class="item tablinks" onclick="openTab(event, 'Tab1')">
+                            <svg width="42" height="35" viewBox="0 0 42 35" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="42" height="35" fill="url(#pattern0_3_82)"/>
+                                <defs>
+                                <pattern id="pattern0_3_82" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_3_82" transform="matrix(0.00833333 0 0 0.01 0.0833333 0)"/>
+                                </pattern>
+                                <image id="image0_3_82" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAELUlEQVR4nO2cS8gWVRjHfypePxJ1IWLgJQgUQwVxI4K6cVUQRAtBjCJaaCZtIgShFKlcSCEu3KhIhNjOXAi69JbXIFQUEiWxiCjTAm95YvB8MJ7me9+Zdy7nzJn/Dw5838vMnOH5nXnmnfM+c0AIIYQQQgghhBBCCCGeZzywETgD/G1b8vf7wDhnW1EzLwI/AGaEdsluIxq6MnrJGG4XdaU0wwc5ZAy3DQ2dU6f5voCQ075PNjbmZ3x2v4CQex7OOSrGAMuBz4ErNqgupmATBZkGvAkcAP7MEVAJqYGXgE3AMeBRwREuIRWnosslU46EDMjUVCr6Y4BASkjDqUhCakpFS4BPBkhFElIRQ8BrwB7g15okKGXlSEXvAd8BDxuQICE9UtH5hgVIiKdUJCEZzPWYiiSEsFJRZ4UMpVLRLwEEuJNC5rQgFZmYhYxuYSoysQmZlEpFdwIInOmikHQqehBAsEybhFRRN5SkomXAZ8CPAQTHtFVImbqhF4A3gP3AbwEExLRdSNm6oa6kItOUkLJ1Q74DYGITUrZuyHcATGxCitQNJdtKCPUKaXoExN5cJAQJ8T4qTUBNVwj+JUgI/gMvIfgPtoTgP8ASgv+gSkgAgTQS4j94RkL8B8xIiP8gmVgnF/+qoMPYm0vh/c8U2PjU/7rzHwATm5CNBTZeLyE08hPupRwbXhjhJ1zfI9LEJgRbwHCxj4yZZJNUpZwEngYQDBOLEOzo32DvE/dtO2XTVJ4yoNnAxzkLJmJuLmX3r2yJiaRM9FoAATIS8jwLrJwbAQTLdPUKGamq8XoAATMS8oxFTiCS98IP2pJV30E0XbxCvnQ6Pmw/n2ir4g9F8G5Ia4SMy6j7TZaxcJkCrLPV8o8DCG60QlY7nd4FJvTZZybwIXA2gCBHJ+RTp9N9Bfd/GdiSWiQs5NYKId84nb5b4liLgS+AWwEEv7VCvnU6XVPBMUfZNa0uBCChdUK+cjpNUhgVSbnhHPtfCenPOidoP9lZ5rIszXi2SRaeeQs46umbWiuukMkZD4C7KjjuDueYiYQ00+2E6YkGZ6NbISQreMY+byQ36UGX3bjpHO/tHtvPAj7K+dtPJ4QM9Zj9vWzvK6+USIMP7bqJeWejt9Y0t9YaIcPvrf/c54SuAtuAhT2Os8w+XJZ5tknfh3YCt7soZDivH8l5cteA7cAKe7NeBezOWLAyeRN4XgWz0SvtShO/d0lIepQns73/VDAqN1V8bmOBV4GvC5ZJtVoIzmzvgQGn4pPFjutkQur88gye1gtxvx6vtVPz/RYkuGlHcZMkXxreAY4DT7ogJGsqfi9wzj5Mnrf/v27Tik9m2EUXTjvPONEKadtakJvtgjsuEhIYZWunRcWUrZ0WFVO2dlpUTNnaaVEDZWqnRU2UrZ0WQgghhBBCCCGEEIKQ+A9UPjGcz5OM0QAAAABJRU5ErkJggg=="/>
+                                </defs>
+                                </svg>
+                                  Афиша
+                        </button>
+                        <button class="item tablinks" onclick="openTab(event, 'Tab4')" >
+                            <svg width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="38" height="31" fill="url(#pattern0_3_104)"/>
+                                <defs>
+                                <pattern id="pattern0_3_104" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_3_104" transform="matrix(0.00815789 0 0 0.01 0.0921053 0)"/>
+                                </pattern>
+                                <image id="image0_3_104" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFcklEQVR4nO2daahVVRSAP4/P7FUayatIogwjaJAIhAibqSgpKykkoof1ozLqR0QQUdBoFA0mNCBBNNGPIpCQfkRYlGUYVDTaTNEoaYOpJL0TK/at9w7nvs49Z+3hnrs+WL/evby9znfPsPdeex8wDMMwDCMUGXAZ8DawA/gBuDrYfzcmsBuwBshL4uyJHzV8MwV4tosMife9t8CYwM2TyOjE0RO/YvjiWOCvCkJu9dYC419mAl9WkCGx7r+vGb54pKIMid/cvcbwxFk9yOjEQb4aM+iMAN/XEGKPvx6Qy87qGjIkbvDRoEHn2poyJJ6M3fi2cQzwZwMhL8VOoE0cAHzXQIbEh7GTaNNN/KOGMiS2xE6kLZ2/txRkdGI4dkL9zB7Ay4oyrC/SgFnA68oycvdgYPTIPOAzDzIkFvfamEHnQmCrJxkSF8dOsF/YC3jCo4hOXBk70X6YBx8FfgwgQ+K62AmnylRgiZtezQPGbbETT409gWXAJ4FFdGJF7AOQAsPAQneP2BZJRCdkUmsgBSxwNVFrEpAwPp6mhewHHOYO+pmuOO1OV4rzDrAzgQPfLZ73fXCmAee5sX4ZzfzVQxLZuP+XJXBQm8RanzLOAT4NkETWIiEbfIiQg3JHwCSyFgl5z4eQ5YGTyFokRH2SahEwZkKoK0T6P2oMOcOhf1VZi86QzzWFLI6URNYiIV9pCgkxGtp2Id9oCvnAhNBUiFQ8FvtxMiFWi80mhKZCfipZeSUPSU+56paeiDUkkbXokvVzybhb528ybTzXhBBUyC+FAz695LFYZi/tDCGMEJmvH88uJZ9ZZUIIdoZsL+nbFT8jS+Tm2D2EIEKkWJsK98QbTQhBhMivv7jepOxzL5oQgggZqyhkowkhiBDpOhSrX2oPsVg/hMZCdlS4qUusNyEEOUP+qPDYK7GyipAtgRrd5p7674VjumuTKnkbXES9pz5+6KTntYiP2RmC9ljW7iV/P7iqkHNNCE2FbCoc0xkFGT0t6JEngo8jSMladA+RXeaKaxg7HcGeRno7SKWgFTlQW8i3JaO9jZe53W5nCHWFfI0Hpjgpoc6UrEWXLNUih7ItimTMxYQQpwyojGmuPOhx10+xYmvCFcqlwt7uWX0+cIpbI3iT+1G84YYn8kGq7U2dIeAo4HLgGbe9Xp5IvBn74KTAdOA04NEEzh6v60O6/TpTX/R5hbu5xhAiS+yCcp+HJGZ5+uHIrgpfBBYil9CgnOQhidke2zvsHgi2BxIiA7RBGXKDZJpJzA3Q7kPccjPfQh4mAtpV8kcEarfM3t3tWci9ROB85STmB27/Eo+XsCh7wM9ULog4LkIOJ7rpVm0h1xMJzevxqZFyWOBhKOiqSLn8c63USmJRrCTc0EyTvXqLcUGsRDSne0eJyyWKuZwcK4kRxfmSa4jPXUq51F6+poFW2dBy4pNN8tKvXkI2zonGQ0pCVpEG+zbcCnDMzR9FY6mSkOdIh9MbXIqLNVnBmackZD1pUffMlxKqqExV2gN3M2kxw1WPJD/0XsY6pbNkhLRYWCOHe0iA+/v9+X0SJnu7Z1lcSgKMKglZSXrMdtXsVXM4ngQ4XEnIzkTfcrashxz2IQG0buy5Ww52AmkhHcbXKrRd9qZMhleVhORuNx3poKXEgRVmSR8kIVYoCslTeXwscMb/vKQ4xpxOVy5SFpK7tzSnxtIuQ/WvkBiHDtAe6ke6x+FNbhpY3mG1Pwne+LSnQzfGTqrfWassZFvshPqdWzxvc2T0iFSj2yUrMV5QlPJA7GTawJyaL4bPS+4fIcpLBwJ5Ecu7DWRsdUuzDeUaWnmB42q35m6yRTRjbq/bDa7YwWclvGEYhmHQRv4GZQiNNQLB1xgAAAAASUVORK5CYII="/>
+                                </defs>
+                                </svg>
+                                
+                                 Новости
+                        </button>
+                        <button class="item tablinks" onclick="openTab(event, 'Tab3')">
+                            <svg width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="38" height="31" fill="url(#pattern0_3_105)"/>
+                                <defs>
+                                <pattern id="pattern0_3_105" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_3_105" transform="matrix(0.00815789 0 0 0.01 0.0921053 0)"/>
+                                </pattern>
+                                <image id="image0_3_105" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE+UlEQVR4nO2dy4scVRTGf2SSTMTxTzAxE0U36kAgvsCFmkGNy2gW6kJ070YSIRqzy2QhOmYlog4Tx8ffEBTFF5gsYtxoMCLJ7CTjI9FMMuMcuXAGhmZiVXVXV3331v3gg6bpbs49X1fde8+5dQ5kZGRkZGSkiy3ABLAPeBWYA74FzgDngAXgqnPB3zvjn5nz7zzlvxF+K6MiNgI7gQPACeAKYDVxCTgFTAGPAKNZnfUxAuwGjgOXaxSgiJeAWRdnQxYHtgFHgfkGRbDr8IJfOcGmzmEcmAYWBYSwHl7zq+YOOoBbgY+BfwUcbwVcBj7yP09y2OyTdJ0TtDXEf4DDKa3QHgV+FnCsDcizwCQRY5NPkisCzrQa+bZf8VFhm2/MLFGeAnYQCZ4A/hBwmg2ZvwOPI45nfdloHeEy8AKieDHB+cJKcMVXYVKYEnCMtcwjiOBlAWeYCPe3LcYzHb1N2XUYfPF8m6upJQEnmBiDT/Y0LcZ4R5a2NsCSeHtTYoSkzkmBQS96xPge4EZneP2WSBT5u6Z29NMCg50H7v4fGydEcixvNBEobHsSXywQY60obV8pK8MMSG4RidpOV7D5mEiUeCi5+8MCgzNgVwWb7xWw1/zkS63YIZRcGqtg95iAvatJrlozj58IDMr6EOQmAXtX+WFdYtzuUU0T4a4Ib1nmPrytDkHeFxiMrWHYZ8Q0qa/lu3Vk/tTyG4u+pC3ChB8vNSEGX24dRJCjAoOwdThfIIrKxrDWMP2I8KDM//3HfJ4Yc97n76ldGb0nJPs6tjopYLwlyof7EeS4gOGWKGeqirG54VPoXeNffm6tNB4UMNoS5wMxxq0sYVaKb30hYLAlzs/KinGDQB7BOsArZU/UTwgYax3hnWUE2SdgqK3DqrAIuLfMQA4JGGodEeRgmYHMCRhqHREkPMtYiK8FDLWOCPJlmYH8IGCo1SCQRcDvywjyq4Ch1hFBfikjyEUBQ60jgvxWRhDlXIIlJkjYgGdBiEyQfMtC65aVJ3W0JvW87EVr2au6MbQeFsFS2Riqhk4sQUFmYw4uWoKCHIw5/G4JCrI3pQRVESyVBFUsKdwiWCop3IDPBQy2xAX5lAp4TcBgS1yQV1I7KFcEE+f9VDxKeknAaEtUkD+rHiXFNy1tG26JChKeSquM3QKGW6KCPNSPIOGhkvMCxltigsz7w1DJVYorgqVYee5m4ZRuEUyQ1+oo9v+ewEAsEUHeoaayGkqFAyxSQWorHIB3CWh7QBa5IB9QI8J9729xAYrQdvGZ2kv+tZ24GhTyiaiqCEW4fsyC0E8Bs6H1HplsscTfoGjD5hVvODZUvNny5W8R8XUaQIhSfiMwWBNnY2Vi8RJDsRw5tdQLKa8iNDPJpcZZNzzyGC3haYE6vibE4IvnaBn7BRxhInwJERwRcIa1TJmGLmtbHsXQwdO60PJoFbkpmCD2+LLPEudCm6upfvYpKW8eT8bYtHhjgq1XV7w7Q3StV3sDkmcFnGkD8qcmAoVNYZOvwi5H3L57lAQx7l0CFHP01sNlT7veQgew3e/FKj1JrCcWNetdITqHrb7DvSAgxHm3ZaBi+algg5ffnvEiw02eQp/xs7Z91WPvAkaAncAB4ETNt7Ulb04/5SumJCfqYWPU2+Q96ac3Qk36r4DTwDlPlF11XvT3TvtnZv074bt3ZQEyMjIyMkgY/wFRhyeKddSaxwAAAABJRU5ErkJggg=="/>
+                                </defs>
+                                </svg>
+                                
+                                 Справочник
+                        </button>
+                        <button class="item tablinks" onclick="openTab(event, 'Tab2')">
+                            <svg width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="38" height="31" fill="url(#pattern0_3_107)"/>
+                                <defs>
+                                <pattern id="pattern0_3_107" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_3_107" transform="matrix(0.00815789 0 0 0.01 0.0921053 0)"/>
+                                </pattern>
+                                <image id="image0_3_107" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                                </defs>
+                                </svg>
+                                
+                                
+                                 О нас
+                        </button>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+                <div class="btn">
+                    <svg width="101" height="100" viewBox="0 0 101 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect x="0.5" width="100" height="100" fill="url(#pattern0_3_116)"/>
+                        <defs>
+                        <pattern id="pattern0_3_116" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_3_116" transform="scale(0.01)"/>
+                        </pattern>
+                        <image id="image0_3_116" width="100" height="100" xlink:href="data:image/png;base64,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"/>
+                        </defs>
+                        </svg>
+                          <p class="pp">Если вам требуется помощь, экстренная кнопка:</p>
+                    <button id="emergency-button">SOS</button>
+                </div>
+            </div>
+       
+            <div class="right_menu tabcontent " id="Tab1">
+                <div class="even">
+                    <div class="itms">
+                        <p>События</p>
+                    </div>
+                    
+                    <div class="itms ">
+                        <div id="articles-list">
+                           <div class="article">
+                            <img src="/uploads/1730447118217-photo_5271729626495967768_y.jpg" alt="1">
+                            <h3>Аймеру 5 лет</h3>
+                            <p>Юбилей родного супермаркета</p>
+                           </div>
+                           <div class="article">
+                            <img src="./uploads/1730447190450-photo_5271729626495967767_y.jpg" alt="2">
+                            <h3>Группа Каста</h3>
+                            <p>У нас выступает Каста</p>
+                           </div>
+                           <div class="article">
+                            <img src="./uploads/1730447381277-photo_5271729626495967765_y.jpg" alt="2">
+                            <h3>Кубок чемпиона</h3>
+                            <p>Проходят соревнования по хоккею</p>
+                           </div>
+                           
+                   
+                        </div>
+                    </div>
+                    
+                    <div class="itms ss">
+                        <div class="circle" onclick="togglediv('itemss')"><p>+</p></div>
+                    </div>
+                    
+                </div>
+                <div class="ststtr" id="itemss">
+                            
+                    <h1>Загрузка статей</h1>
+                    <form id="article-form" enctype="multipart/form-data">
+                        <input type="text" id="article-title" placeholder="Название статьи" required>
+                        <textarea id="article-content" placeholder="Содержание статьи" required></textarea>
+                        <input type="file" id="article-image" accept="image/*" required>
+                        <button type="submit">Загрузить статью</button>
+                    </form>
+                </div>
+            </div>
+            <div class="right_menu tabcontent waesdf" id="Tab2">
+                <div class="imagi">
+                    <div class="if">
+                        <img src="./uploads/WhatsApp Image 2024-11-01 at 12.24.22.jpeg" alt="">
+                    </div>
+                    <div class="if">
+                        <img src="./uploads/WhatsApp Image 2024-11-01 at 12.27.57.jpeg" alt="">
+                    </div>
+                    <div class="if">
+                        <img src="./uploads/WhatsApp Image 2024-11-01 at 12.28.25.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="right_menu tabcontent " id="Tab3">
+                <h1>Справочник городских служб</h1>
+                 <div id="services-list">
+                     <button onclick="showService('clinic')">Поликлиники</button> 
+                     <button onclick="showService('sport')">Спортивные центры</button>
+                     <button onclick="showService('parking')">Парковки</button> 
+                     <button onclick="showService('waste')">Пункты сбора мусора</button> 
+                    </div> <div id="map"></div>
+            </div>
+            <div class="right_menu tabcontent   dd" id="Tab4">
+               <div class="news">
+                <p>Новости</p>
+               </div>
+                <div id="data-container">
+                    <div id="block1" class="block"></div>
+                    <div id="block2" class="block"></div>
+                    <div id="block3" class="block"></div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <script src="scripts.js"></script>
+            
+                
+   
+   
+  
+        
+    
+   
+    
+</body>
+</html>

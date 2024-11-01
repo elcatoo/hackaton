@@ -1,0 +1,2 @@
+C:\Users\nksen\OneDrive\Desktop\Новая папка\telegram-bot>node --experimental-modules server.js.mjs
+http://localhost:3000

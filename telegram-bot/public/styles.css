@@ -1,0 +1,363 @@
+*{
+    font-family: Segoe UI;
+}
+body{
+    background-color: #75A4E0;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+#emergency-button {
+    background-color: #C35A5A;
+    width: 60%;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    
+    border-radius: 10px;
+}
+
+#emergency-button:hover {
+    background-color: darkred;
+}
+.pp{
+    text-align: center;
+    font-size: 20px;
+}
+.add_container{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+}
+.add{
+    display:flex ;
+    width: 200px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+#articles-section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+
+/* styles.css */
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#articles-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    overflow: scroll;
+    height: 95%;
+}
+.btn{
+    height: 40%;
+    background-color: white;
+    border-radius: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -2px 10px 8px -4px  #FFFFFFB2;
+}
+.article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.article {
+    border: 1px solid #ccc;
+    
+    
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.circle p{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.ststtr{
+    display: none;
+    position: absolute;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-top: -500px;
+}
+main{
+    width: 100%;
+    font-display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+#services-list button{
+    height: 50px;
+}
+.main_container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left_menu{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu_nav{
+    height: 60%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: -2px 10px 8px -4px  #FFFFFFB2;
+}
+.items{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.item {
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+    background:none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item:hover{
+    background-color:  #EAEAEC;
+    
+}
+.right_menu{
+    width: 75%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+     box-shadow: -2px 10px 8px -4px  #FFFFFFB2; ;
+    ;
+}
+#events{
+    display: flex;
+}
+.tabcontent{
+    display: none;
+}
+.tab{
+    overflow: hidden;
+}
+.even{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+}
+.itms{
+    width: 90%;
+    font-size: 25px;
+    font-weight: 600;
+    height: 90%;
+}
+.ss{
+    position: absolute;
+    width: 0px;
+    top: 580px;
+    margin-left: 990px;
+}
+
+
+#map{
+    height: 60%;
+}
+#services-list {
+    height: 10%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#services-list button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0px;
+    width: 200px;
+    background: #75A4E0;
+    color: white;
+    
+}
+
+#map {
+    height: 79%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#data-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.block {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    
+}
+.dd{
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+.ddddddd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+#data-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.news{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.news p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.waesdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagi{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.if img{
+ width: 80%;
+ border-radius: 200px;
+}
