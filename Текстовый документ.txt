@@ -3,3 +3,6 @@ C:\Users\nksen\OneDrive\Desktop\Новая папка\telegram-bot>node --experi
 
 Локальный сервер -
 http://localhost:3000
+
+Телеграмм бот с рассылкой - 
+@WhereMyFamily_bot
